@@ -1,384 +1,210 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML> 
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>john-doe Website Template | Home :: w3layouts</title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		 <!-- Custom Theme files -->
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-   		 <!-- Custom Theme files -->
-   		 <!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
+<head>
+<title>AMOS CHIDIEBUBE</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Emrah_Demirag Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"> </script>
+<!--web_fonts-->
+<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<!--/web_fonts-->
+<!--start-smoth-scrolling-->
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
 					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 				});
 			});
 		</script>
-		 <!---- start-smoth-scrolling---->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<!----webfonts--->
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-		<!---//webfonts--->
-		<!----start-top-nav-script---->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
+<!--start-smoth-scrolling-->
+</head>
+<body>
+<!--header-->
+<div id="home" class="banner">
+	<div class="container">
+		<div class="label-1"> </div>
+		<div class="top-menu">
+		<span class="menu"> </span> 
+			<ul class="nav">
+					<li><a class="scroll" href="#home">HOME</a></li>
+					<li><a class="scroll" href="#about">ABOUT</a></li>
+					<li><a class="scroll" href="#work">WORK</a></li>
+					<li><a class="scroll" href="#contact">CONTACT</a></li>
+				</ul>
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" /></a>
+				</div>
+				<div class="clearfix"> </div>
+	</div>	
+			 <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
 				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
+		 </script>
+		 <!-- script-for-menu -->	
+			<div id="banner-top" class="banner-top">		  		  
+				<h1><span class="left-icon"> </span>AMOS CHIDIEBUBE<span class="right-icon"> </span><div class="clearfix"> </div></h1>
+				<h2><span class="left-icon"> </span>DevOps Engineer<span class="right-icon"> </span><div class="clearfix"> </div></h2>
+			</div>
+		<div class="header-icons">
+			<a href="#"><span class="fb"> </span></a>
+			<a href="#"><span class="tw"> </span></a>
+			<a href="#"><span class="pin"> </span></a>	
+			<a href="#"><span class="likdin"> </span></a>	
+			<a href="#"><span class="dribble"> </span></a>	 
+			<a href="#"><span class="be"> </span></a>
+		 </div>
+</div>
+</div>
+<!--/header-->
+<!--work-->
+<div id="work" class="work">
+	<div class="container">
+		<div class="label-3"> </div>
+		<div class="label-4"> </div>
+		<h3><span class="left-icon"> </span>WORK<span class="right-icon"> </span><div class="clearfix"> </div></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		<!--Portfolio-->
+	<div class="project">
+					<div id="portfoliolist">
+						<div class="portfolio" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p1.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+							     <img src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div>
+						</div>				
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p2.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+							     <img src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			               	</div>
+						</div>		
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p3.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+							     <img src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div>
+						</div>						
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+							     <img src="images/p4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div>
+						</div>	
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+							     <img src="images/p5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div> 
+						</div>			
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p6.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+							     <img src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div>
+			            </div>	
+			            <div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p7.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+							     <img src="images/p7.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div> 
+						</div>			
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a href="images/p8.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
+							     <img src="images/p8.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Processing Steps Web<img src="images/logo.png" /></h2>
+							  	 </div></a>
+			                </div>
+			            </div>		
+			            <div class="clearfix"> </div>
+			</div>
+</div>
+	<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
 			});
 		</script>
-		<!----//End-top-nav-script---->
-	</head>
-	<body>
-		<!----- start-header---->
-			<div id="home" class="header">
-					<div class="top-header">
-						<div class="container">
-						<div class="logo">
-							<a href="#"><img src="images/logo.png" title="Johndeo" /></a>
-						</div>
-						<!----start-top-nav---->
-						 <nav class="top-nav">
-							<ul class="top-nav">
-								<li class="active"><a href="#home" class="scroll">About</a><span> </span></li>
-								<li><a href="#work" class="scroll">Work</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
-							</ul>
-							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
-						</nav>
-						<div class="clearfix"> </div>
-						<!----top-header-info--->
-						<div class="top-header-info">
-							<p>
-								Holla,<br/>
-								I'm John Doe. <br/>
-								A freelance UI / UX / Web Designer.<br/>
-								Based in Boston<br/>
-							</p>
-							<a class="contactme" href="#">CONTACT ME</a>
-						</div>
-						<!----//End-header-info--->
-					</div>
+<!--/Portfolio-->
+	</div>
+</div>
+<!--/work-->
+<!--about-->
+<div id="about" class="about">
+	<div class="container">
+		<div class="label-5"> </div>
+		<div class="label-6"> </div>
+		<h3><span class="left-icon"> </span>ABOUT<span class="right-icon">  </span><div class="clearfix"> </div></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		<div class="about-info">
+			<div class="col-md-6 about-left">
+				<img src="images/about.jpg" class="img-responsive" alt=""/>
+			</div>
+			<div class="col-md-6 about-right">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus, ligula ut viverra vol.
+					Felis ipsum dignissim quam, sed euismod orci lorem nec ligula. Fusce sit amet faucibus nunc.
+					 Suspendisse nibh nisi,iverra in ligula vel, laciniavestibulum nibh.Class
+					 aptent taciti sociosqu ad litora torquent per conubia nostra, 
+					per inceptos himenaeosProin quis erat sit amet 
+					massa dapibus porttitor.</p>
+					<div class="about-icons">
+						<a href="#"><span class="fb"> </span></a>
+						<a href="#"><span class="tw"> </span></a>
+						<a href="#"><span class="pin"> </span></a>	
+						<a href="#"><span class="likdin"> </span></a>	
+						<a href="#"><span class="dribble"> </span></a>	 
+						<a href="#"><span class="be"> </span></a>
+					 </div>
+			</div>
+			 <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--/about-->
+<!--contact-->
+<div id="contact" class="contact">
+	<div class="container">
+		<div class="label-7"> </div>
+		<div class="label-8"> </div>
+		<h3><span class="left-icon"> </span>CONTACT<span class="right-icon"> </span><div class="clearfix"> </div></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		<div class="conatct-form">
+			<ul class="form">
+				<li>
+				<input type="text" class="text" value="Name*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name*';}" >
+				</li>
+				<li>
+				<input type="text" class="text" value="Email*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email*';}" >
+				</li>
+				<li>
+				<textarea value="Message*:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message*';}">Message*</textarea>
+				</li>
+				<div class="sub-button">
+					<input type="submit" value="SEND">
 				</div>
-			</div>
-			<!----- //End-header---->
-			<!---- about us ---->
-			<div class="aboutus">
-				<div class="container">
-					<h2>ABOUT<br/>JOHN DOE</h2>
-					<span> </span>
-					<div class="col-md-6 aboutus-left">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet., sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="col-md-6 aboutus-right">
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<a class="aboutus-right-btn" href="#">MY RESUME</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-			<!---- about us ---->
-			<!---- QUOTE ---->
-			<div class="quote text-center">
-				<div class="container">
-					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-				</div>
-			</div>
-			<!---- //QUOTE ---->
-			<!---- WORKS ---->
-			<div id="work" class="works">
-				<div class="container">
-					<h2>MY<br/>WORKS</h2>
-					<span> </span>
-				</div>
-				<!---- partners ---->
-				<div class="partners">
-					<!----sreen-gallery-cursual---->
-						<div class="sreen-gallery-cursual">
-							 <!-- requried-jsfiles-for owl -->
-							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-							        <script>
-							    $(document).ready(function() {
-							      $("#owl-demo").owlCarousel({
-							        items : 5,
-							        lazyLoad : true,
-							        autoPlay : true,
-							        navigation : true,
-							        navigationText :  false,
-							        pagination : false,
-							      });
-							    });
-							    </script>
-							 <!-- //requried-jsfiles-for owl -->
-							 <!-- start content_slider -->
-							 <div class="container">
-						       <div id="owl-demo" class="owl-carousel">
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen1.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen2.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen3.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen4.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen5.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen1.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen2.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-					                <div class="item">
-					                	<img class="lazyOwl" data-src="images/screen3.jpg" alt="screen-name">
-					                	<label>PROJECT TITLE</label>
-					                </div>
-				              </div>
-							</div>
-						<!--//sreen-gallery-cursual---->
-				</div>
-				<!---- //partners ---->
-				<!----project-grid---->
-				<div class="project-grid">
-					<div class="container">
-					<img class="project-screen" src="images/screen.jpg" title="name" />
-					<div class="project-grid-info">
-						<div class="col-md-3 project-grid-info-left">
-							<h3>CLIENT:</h3>
-							<label>Some Company</label>
-							<h3>WEBSITE:</h3>
-							<label><a href="#">http://www.somedomain.com</a></label>
-							<a class="sitedemo" href="#">VISIT LIVE SITE</a>
-						</div>
-						<div class="col-md-9 project-grid-info-left">
-							<h3><a href="#">PROJECT TITLE</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam uptatem.</p>
-							<ul class="project-share unstyled-list list-inline">
-								<li><a class="p-like" href="#"><label> </label> 144 LIKES</a></li>
-								<li><a class="p-share" href="#"><label> </label> SHARE</a></li>
-								<div class="clearfix"> </div>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					</div>
-				</div>
-				<!----project-grid---->
-			</div>
-			</div>
-			<!---- //WORKS ---->
-			<!---- TESTIMONIAL ---->
-			<div class="testmonials">
-				<div class="container">
-					<h2>WHAT<br/>THEY SAY</h2>
-					<span> </span>
-				<div class="people-testmonials">
-					 <script>
-							    $(document).ready(function() {
-							      $("#owl-demo1").owlCarousel({
-							        items : 1,
-							        lazyLoad : true,
-							        autoPlay : true,
-							        navigation : false,
-							        navigationText :  false,
-							        pagination : true,
-							      });
-							    });
-						</script>
-					<div id="owl-demo1" class="owl-carousel">
-					                <div class="item ">
-					                	<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. "</p>
-					               		<div class="test-people">
-					               			<div class="test-people-pic">
-					               				<a href="#">
-					               					<img src="images/test-people-pic.png" title="name" />
-					               				</a>
-					               			</div>
-					               			<div class="test-people-info">
-					               				<a href="#">Lily Barnes</a>
-					               				<small>Managing Director ABC Ltd.</small>
-					               			</div>
-					               			<div class="clearfix"> </div>
-					               		</div>
-									</div>
-									<div class="item ">
-					                	<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. "</p>
-					               		<div class="test-people">
-					               			<div class="test-people-pic">
-					               				<a href="#">
-					               					<img src="images/test-people-pic.png" title="name" />
-					               				</a>
-					               			</div>
-					               			<div class="test-people-info">
-					               				<a href="#">Lily Barnes</a>
-					               				<small>Managing Director ABC Ltd.</small>
-					               			</div>
-					               			<div class="clearfix"> </div>
-					               		</div>
-									</div>
-									<div class="item ">
-					                	<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. "</p>
-					               		<div class="test-people">
-					               			<div class="test-people-pic">
-					               				<a href="#">
-					               					<img src="images/test-people-pic.png" title="name" />
-					               				</a>
-					               			</div>
-					               			<div class="test-people-info">
-					               				<a href="#">Lily Barnes</a>
-					               				<small>Managing Director ABC Ltd.</small>
-					               			</div>
-					               			<div class="clearfix"> </div>
-					               		</div>
-									</div>
-									<div class="item ">
-					                	<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. "</p>
-					               		<div class="test-people">
-					               			<div class="test-people-pic">
-					               				<a href="#">
-					               					<img src="images/test-people-pic.png" title="name" />
-					               				</a>
-					               			</div>
-					               			<div class="test-people-info">
-					               				<a href="#">Lily Barnes</a>
-					               				<small>Managing Director ABC Ltd.</small>
-					               			</div>
-					               			<div class="clearfix"> </div>
-					               		</div>
-									</div>
-									<div class="item ">
-					                	<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. "</p>
-					               		<div class="test-people">
-					               			<div class="test-people-pic">
-					               				<a href="#">
-					               					<img src="images/test-people-pic.png" title="name" />
-					               				</a>
-					               			</div>
-					               			<div class="test-people-info">
-					               				<a href="#">Lily Barnes</a>
-					               				<small>Managing Director ABC Ltd.</small>
-					               			</div>
-					               			<div class="clearfix"> </div>
-					               		</div>
-									</div>
-									<div class="item ">
-					                	<p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. "</p>
-					               		<div class="test-people">
-					               			<div class="test-people-pic">
-					               				<a href="#">
-					               					<img src="images/test-people-pic.png" title="name" />
-					               				</a>
-					               			</div>
-					               			<div class="test-people-info">
-					               				<a href="#">Lily Barnes</a>
-					               				<small>Managing Director ABC Ltd.</small>
-					               			</div>
-					               			<div class="clearfix"> </div>
-					               		</div>
-									</div>
-				    </div>
-				</div>
-			</div>
-			</div>
-			<!---- //TESTIMONIAL ---->
-			<!---- CONTACT ----->
-			<div id="contact" class="contact"> 
-				<div class="container">
-					<h2>WAYS TO<br/>CONTACT ME</h2>
-					<span> </span>
-				<!----contact-grids---->
-				<div class="contact-grids">
-					<div class="col-md-6 contact-left">
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<form>
-							<input type="text" value="Your beautiful name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your beautiful name';}">
-							<input type="text" value="Your email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email address';}">
-							<textarea rows="2" cols="70" onfocus="if(this.value == 'Leave your message') this.value='';" onblur="if(this.value == '') this.value='Leave your message';">Leave your message</textarea>
-							<input type="submit" value="SEND MESSAGE" />
-							<div class="clearfix"> </div>
-						</form>
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-					<div class="col-md-6 contact-right">
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<div class="address">
-							<label>HOLLA@JOHNDOE.DEV</label>
-							<label>+1 (234) 5678901</label>
-							<label>715A CD58</label>
-						</div>
-						<div class="clearfix"> </div>
-						<div class="address">
-							<label>CREATIVE BUILDING 58</label>
-							<label>3083 Romines Mill Road</label>
-							<label>Boston, MA 02201  </label>
-						</div>
-						<div class="clearfix"> </div>
-						<div class="social-share">
-							<h4>ON SOCIAL</h4>
-							<ul class="unstyled-list list-inline">
-								<li><a class="facebook" href="#"><span> </span></a></li>
-								<li><a class="twitter" href="#"><span> </span></a></li>
-								<li><a class="googlepluse" href="#"><span> </span></a></li>
-								<li><a class="dribbble" href="#"><span> </span></a></li>
-								<div class="clearfix"> </div>
-							</ul>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-			</div>
-			<!---- CONTACT ----->
-			<!----contact-map---->
-			<div class="contact-map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23352.08300485254!2d-71.68171461926248!3d42.978055078175615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e233e8a9946e0d%3A0x590e6c13b1743f65!2sNew+Boston%2C+NH!5e0!3m2!1sen!2sin!4v1403880819261"></iframe>
-				<label>I'M HERE</label>
-			</div>
-			<!----contact-map---->
-			<div class="copy-right text-center">
-				<div class="container">
-					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
-					<label>Copyright 2014. All rights reserved.</label>
-								<script type="text/javascript">
+			</ul>
+		</div>
+		<div class="copyrights">
+		<p>Copyrights &copy; 2015 Example All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+		</div>
+		<script type="text/javascript">
 									$(document).ready(function() {
 										/*
 										var defaults = {
@@ -393,10 +219,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										
 									});
 								</script>
-									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	
-				</div>
-			</div>
-	</body>
-</html>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</div>
+<!--/contact-->
+<!--copy-rights-->
 
+<!--copy-rights-->
+</body>
+</html>
